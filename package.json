@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "script": "npx hardhat run scripts/buy-coffee.js",
     "deploy": "npx hardhat run scripts/deploy.js",
-    "start": "npx hardhat run scripts/deploy.js --network goerli"
+    "start": "npx hardhat run scripts/deploy.js --network goerli",
+    "withdraw": "npx hardhat run scripts/withdraw.js"
   },
   "keywords": [],
   "author": "",
